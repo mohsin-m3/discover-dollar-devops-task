@@ -20,19 +20,20 @@ This README.md
 
 Repository structure
 .
+.
 ├── backend/
-│   ├── Dockerfile
-│   ├── package.json
-│   └── server.js
+│ ├── Dockerfile
+│ ├── package.json
+│ └── server.js
 ├── frontend/
-│   ├── Dockerfile
-│   ├── package.json
-│   └── src/...
+│ ├── Dockerfile
+│ ├── package.json
+│ └── src/...
 ├── nginx/
-│   └── nginx.conf
+│ └── nginx.conf
 ├── docker-compose.prod.yml
 ├── .github/
-│   └── workflows/ci-cd.yml
+│ └── workflows/ci-cd.yml
 ├── screenshots/
 └── README.md
 Prerequisites (local & server)
