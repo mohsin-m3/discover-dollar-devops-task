@@ -11,7 +11,7 @@ RUN npm ci
 # copy source and build
 COPY . .
 # use the npm script if present; otherwise this runs the Angular CLI build directly
-RUN npm run build -- --prod --output-path=dist/angular-15-crud
+RUN npm run build -- --configuration=production --output-path=dist/angular-15-crud
 
 # 2) Production stage with nginx
 FROM nginx:stable-alpine
