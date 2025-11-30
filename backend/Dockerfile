@@ -6,7 +6,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # install production deps only (faster, lean)
-RUN npm ci --only=production
+RUN npm install --only=production
 
 # copy app source
 COPY . .
